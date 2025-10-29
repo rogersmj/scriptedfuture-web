@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scripted Future</title>
+  <meta name="description" content="Guiding clients in entrepreneurial ideation, technical architecture, and innovation-driven business models." />
+  <meta property="og:title" content="Scripted Future" />
+  <meta property="og:description" content="Guiding clients in entrepreneurial ideation, technical architecture, and innovation-driven business models." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0e13" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MFWPH52X9T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MFWPH52X9T');
+  </script>
+</head>
+<body>
+  <div class="bg">
+    <div class="bg-grid"></div>
+    <div class="bg-blob bg-blob-a"></div>
+    <div class="bg-blob bg-blob-b"></div>
+    <div class="bg-noise"></div>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <img src="images/scripted-future-logo.svg" alt="Scripted Future logo" class="brand-logo" />
+      </a>
+      <nav class="nav">
+        <a href="#contact" class="btn btn-ghost">Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="section hero">
+      <div class="container">
+        <div class="hero-inner">
+          <h1 class="hero-title">
+            Guiding clients in entrepreneurial ideation,
+            <span class="txt-gradient">technical architecture</span>,
+            and innovation-driven business models.
+          </h1>
+          <p class="hero-sub">
+            We help founders and organizations translate ideas into technology strategies that create momentum,
+            attract investment, and build long‑term value.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Start a conversation <span class="ico">➜</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cards">
+      <div class="container">
+        <div class="card-grid">
+          <article class="card">
+            <h3>Venture Ideation</h3>
+            <p>Defining opportunities and validating the business model.</p>
+          </article>
+          <article class="card">
+            <h3>Technical Architecture</h3>
+            <p>Designing scalable systems that support rapid experimentation.</p>
+          </article>
+          <article class="card">
+            <h3>Execution Support</h3>
+            <p>Bridging strategy and delivery through modern product development.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section partners">
+      <div class="container">
+        <div class="partners-head">
+          <h2>Guided by Hands-On Partners</h2>
+          <p>Co-founders Matt Rogers and Corey Koopmans bring two decades of experience across architecture, go-to-market execution, and investor alignment to every engagement.</p>
+        </div>
+        <div class="partner-grid">
+          <article class="partner-card">
+            <div class="partner-headshot">
+              <img src="images/corey-koopmans.jpeg" alt="Corey Koopmans headshot" loading="lazy" />
+            </div>
+            <div class="partner-copy">
+              <h3>Corey Koopmans</h3>
+              <h4 class="partner-role">Managing Partner<br/>Go-to-Market &amp; Investor Relations</h4>
+              <p>Corey orchestrates market strategy and capital storytelling, pairing 20 years of venture fundraising with a sharp focus on momentum-building execution.</p>
+            </div>
+          </article>
+          <article class="partner-card">
+            <div class="partner-headshot">
+              <img src="images/matt-rogers.jpeg" alt="Matt Rogers headshot" loading="lazy" />
+            </div>
+            <div class="partner-copy">
+              <h3>Matt Rogers</h3>
+              <h4 class="partner-role">Managing Partner<br/>CTO &amp; Architect</h4>
+              <p>Matt architects resilient platforms and product ecosystems, translating ideas into scalable technical roadmaps shaped by 20 years of engineering leadership.</p>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <h2>Let’s explore what’s possible</h2>
+          <p>If your next move involves new technology, product vision, or investment alignment, we can help shape and deliver it.</p>
+        </div>
+        <div class="contact-form">
+          <form method="POST" id="form">
+            <input type="hidden" name="access_key" value="dd9b7778-4abe-440a-81ba-3840138aea39">
+            <input type="hidden" name="subject" value="Contact from ScriptedFuture.com">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@company.com" required>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" placeholder="Tell us about your idea or challenge" rows="6" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send <span class="ico">➜</span></button>
+            
+          </form>
+          <div id="result"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="brand brand-small">
+        <span class="brand-muted">© <span id="y"></span> Scripted Future, LLC</span>
+      </div>
+      <a class="brand-link" href="https://scriptedfuture.com/" target="_blank" rel="noreferrer">scriptedfuture.com</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    const form = document.getElementById('form');
+    const result = document.getElementById('result');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+      result.innerHTML = "Please wait..."
+
+        fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    form.style.display = "none";
+                    result.innerHTML = "<h2>Message sent!</h2><p>Thank you for reaching out. We'll get back to you shortly.</p>";
+                } else {
+                    console.log(response);
+                    result.innerHTML = json.message;
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                result.innerHTML = "Something went wrong!";
+            })
+            .then(function() {
+                form.reset();
+            });
+    });
+  </script>
+</body>
+</html>
