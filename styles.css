@@ -272,7 +272,7 @@ body{
   border:1px solid var(--line); border-radius:16px; padding:24px; backdrop-filter: blur(8px);
   display:grid; gap:14px;
 }
-.contact-form label{display:block}
+.contact-form label{display:block; margin-bottom: 10px;}
 .contact-form label span{display:block; font-size:.9rem; color:rgba(255,255,255,.7)}
 .contact-form input, .contact-form textarea{
   margin-top:6px; width:100%; padding:12px 14px; border-radius:12px;
